@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mfec.homework01.MainFragment">
+
+        <TextView
+            android:id="@+id/act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity2" />
+
+        <TextView
+            android:id="@+id/frag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment2" />
+
+        <EditText
+            android:id="@+id/input_string"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="อะไรก็ได้" />
+
+        <Button
+            android:onClick="onBtnNextClick"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Go Next"/>
+
+</LinearLayout>

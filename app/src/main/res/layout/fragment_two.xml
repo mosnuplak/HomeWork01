@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mfec.homework01.MainFragment">
+
+    <TextView
+        android:id="@+id/show_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/input_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="อะไรก็ได้"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1" />
+</LinearLayout>
